@@ -1,0 +1,33 @@
+# Global ignores
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.local
+cursorrules.txt
+prepare.txt
+
+# Backend ignores
+backend/node_modules/
+backend/.env
+backend/coverage/
+backend/dist/
+backend/scripts/*.log
+
+# Frontend ignores
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Dependency lock files (optional, if you want to ignore them)
+# backend/package-lock.json
+# frontend/package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Test output
+coverage/
